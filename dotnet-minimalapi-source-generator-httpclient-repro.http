@@ -1,0 +1,11 @@
+@dotnet_minimalapi_source_generator_httpclient_repro_HostAddress = http://localhost:5035
+
+GET {{dotnet_minimalapi_source_generator_httpclient_repro_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{dotnet_minimalapi_source_generator_httpclient_repro_HostAddress}}/todos/1
+Accept: application/json
+
+###
